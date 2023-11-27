@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import img1 from "./assets/1.jpg";
-import bg from "./assets/bg.jpg";
+import  { useState } from "react";
+// import img1 from "./assets/1.jpg";
+// import bg from "./assets/bg.jpg";
 import imgg1 from "./assets/home.png";
 import img2 from "./assets/cam.png";
 import img3 from "./assets/pencil.png";
@@ -10,16 +10,16 @@ import img6 from "./assets/music.png";
 import img7 from "./assets/sound.png";
 import img8 from "./assets/fire.png";
 import pexals1 from "./assets/pexel1.jpg";
-import bgimg1 from "./assets/1.jpg";
+// import bgimg1 from "./assets/1.jpg";
 import bgimg2 from "./assets/2.jpg";
-import bgimg3 from "./assets/3.jpg";
-import bgimg4 from "./assets/bgimg3.jpg";
+// import bgimg3 from "./assets/3.jpg";
+// import bgimg4 from "./assets/bgimg3.jpg";
 
 import { AiOutlineSearch } from "react-icons/ai";
 import Card from "./Card";
 
 export default function Body() {
-  const [datas, setDatas] = useState([
+  const [datas] = useState([
     {
       lorem:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, tempora officia iusto, quidem ea culpa error quam perferendis reprehenderit repellendus itaque rem laborum labore dolore cupiditate esse deserunt ipsum temporibus?",
@@ -195,7 +195,7 @@ export default function Body() {
 
       {/* {sections} */}
 
-      <div className="sm:max-w-[1880px] lg:mx-auto">
+      <div className="sm:max-w-[1880px] lg:mx-auto mb-20">
         <div className="flex items-center sm:justify-center justify-start mt-3 shadow-md py-5   overflow-x-scroll scrollbar-hide ">
           <div className="flex shadow-orange-400 py-1  justify-center items-center rounded-3xl gap-2 px-4 mx-2 py1 shadow-sm hover:grayscale-0 grayscale  hover:scale-125 hover:text-orange-400 text-[10px] md:text-[15px] ease-in-out duration-300 hover:bg-gray-50">
             <img className="w-3 h-3" src={imgg1} alt="" />
